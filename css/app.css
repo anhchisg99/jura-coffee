@@ -209,6 +209,9 @@ body {
   .header-content {
     display: none;
   }
+  .header-menu span:last-child {
+    display: none;
+  }
 }
 .carasel-container {
   max-width: 100%;
