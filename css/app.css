@@ -276,16 +276,19 @@ body {
   }
 }
 .products {
-  padding: 100px 180px 0 180px;
+  max-width: 1680px;
+  padding: 100px 50px 0 50px;
 }
 .products-container {
+  max-width: 1228px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
   gap: 25px;
 }
 .products-item {
-  width: 23%;
+  width: 33%;
   transition: ease-in 0.5s;
 }
 .products-item:hover {
